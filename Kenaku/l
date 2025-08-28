@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc Main.c -lm -o AzSim -Wall -lSDL2 -lSDL2_gfx -lSDL2_image -lSDL2_ttf -lX11 #-fsanitize=address,undefined
+./AzSim
